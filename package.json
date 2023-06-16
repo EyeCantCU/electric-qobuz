@@ -2,9 +2,11 @@
   "name": "electric-qobuz",
   "version": "0.0.1",
   "description": "A Qobuz Electron app",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "build:watch": "npm run build -- --watch",
+    "start": "electron ./src/electron/index.ts"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,10 @@
   "bugs": {
     "url": "https://github.com/EyeCantCU/electric-qobuz/issues"
   },
-  "homepage": "https://github.com/EyeCantCU/electric-qobuz#readme"
-  "private": true
+  "homepage": "https://github.com/EyeCantCU/electric-qobuz#readme",
+  "private": true,
+  "devDependencies": {
+    "electron": "^25.1.1",
+    "typescript": "^5.1.3"
+  }
 }
