@@ -1,0 +1,23 @@
+{
+  "name": "electric-qobuz",
+  "version": "0.0.1",
+  "description": "A Qobuz Electron app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EyeCantCU/electric-qobuz.git"
+  },
+  "keywords": [
+    "qobuz"
+  ],
+  "author": "RJ Trujillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EyeCantCU/electric-qobuz/issues"
+  },
+  "homepage": "https://github.com/EyeCantCU/electric-qobuz#readme"
+  "private": true
+}
